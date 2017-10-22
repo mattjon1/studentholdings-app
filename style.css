@@ -1,0 +1,143 @@
+*{
+	font-family: Garamond;
+}
+footer{
+	background-color:#dedfe0;
+	font-size:10px;
+	position:relative;
+	margin-bottom: 10px;
+	color: #77797c;
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+#name{
+	position: relative;
+	margin-left:10px;
+	font-size: 22px;
+}
+#myclass{
+	margin-left:10px;
+	font-size: 14px;
+}
+
+#links{
+	border-radius: 8px;
+	border: 2px solid white;
+	background-color: #5FD887;
+	height: 40px;
+	width: 420px;
+	margin: auto;
+	text-align: center;
+	color:white;
+	font-weight:bold;
+	font-size: 12px;
+	position: absolute;
+	top: 2%;
+	right: 9%;
+}
+#links p{
+	font-size:13px;
+}
+#oneth{
+	column-count: 3;
+	
+}
+.buttons{
+    display: inline-block;
+    position:relative;
+    top:-20px;
+    left:45%;
+    padding: 5px;
+    border-radius: 7px;
+	border: 0px solid white;
+	background-color: #5FD887;
+    text-align: center;
+    font-size: 13px;
+    color: white; 
+}
+
+div img{
+	position:relative;
+	left: 13%;
+}
+a:hover{
+	color: #4d4f51;
+}
+.slider-holder
+{
+	width: 800px;
+	height: 400px;
+	background-color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: center;
+	overflow: hidden;
+}
+        
+.image-holder
+{
+	width: 2400px;
+	background-color: white;
+	height: 400px;
+	clear: both;
+	position: relative;
+            
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+	transition: left 2s;
+}
+        
+.slider-image
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+        
+#slider-image-1:target ~ .image-holder
+{
+    left: -310px;
+}
+        
+#slider-image-2:target ~ .image-holder
+{
+	left: -1110px;
+}
+        
+#slider-image-3:target ~ .image-holder
+{
+	left: -1910px;
+}
+        
+.button-holder
+{
+	position: relative;
+	top: -20px;
+}
+        
+.slider-change
+{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	border-color: black;
+	background-color: white;
+}
+#randompics{
+	position: relative;
+
+	column-count: 1;
+	column-gap: 0px;
+}
+footer a{
+	color: #77797c;
+
+}
