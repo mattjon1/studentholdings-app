@@ -133,8 +133,8 @@ a:hover{
 }
 #randompics{
 	position: relative;
-
-	column-count: 1;
+	margin-left: auto;
+	margin-right: auto;
 	column-gap: 0px;
 }
 footer a{
